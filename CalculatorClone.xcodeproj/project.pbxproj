@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3DC42E5A1C2F910500037970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42E591C2F910500037970 /* AppDelegate.swift */; };
-		3DC42E5C1C2F910500037970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42E5B1C2F910500037970 /* ViewController.swift */; };
 		3DC42E5F1C2F910500037970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC42E5D1C2F910500037970 /* Main.storyboard */; };
 		3DC42E611C2F910500037970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC42E601C2F910500037970 /* Assets.xcassets */; };
 		3DC42E641C2F910500037970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC42E621C2F910500037970 /* LaunchScreen.storyboard */; };
 		3DC42E6F1C2F910500037970 /* CalculatorCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42E6E1C2F910500037970 /* CalculatorCloneTests.swift */; };
 		3DC42E7A1C2F910500037970 /* CalculatorCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42E791C2F910500037970 /* CalculatorCloneUITests.swift */; };
+		3DC42E881C2F916000037970 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42E871C2F916000037970 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3DC42E561C2F910500037970 /* CalculatorClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC42E591C2F910500037970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DC42E5B1C2F910500037970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DC42E5E1C2F910500037970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC42E601C2F910500037970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC42E631C2F910500037970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3DC42E751C2F910500037970 /* CalculatorCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC42E791C2F910500037970 /* CalculatorCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorCloneUITests.swift; sourceTree = "<group>"; };
 		3DC42E7B1C2F910500037970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC42E871C2F916000037970 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC42E591C2F910500037970 /* AppDelegate.swift */,
-				3DC42E5B1C2F910500037970 /* ViewController.swift */,
+				3DC42E871C2F916000037970 /* CalculatorViewController.swift */,
 				3DC42E5D1C2F910500037970 /* Main.storyboard */,
 				3DC42E601C2F910500037970 /* Assets.xcassets */,
 				3DC42E621C2F910500037970 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC42E5C1C2F910500037970 /* ViewController.swift in Sources */,
+				3DC42E881C2F916000037970 /* CalculatorViewController.swift in Sources */,
 				3DC42E5A1C2F910500037970 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
