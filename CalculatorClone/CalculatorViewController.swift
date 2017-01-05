@@ -16,7 +16,7 @@ class CalculatorViewController: UIViewController {
   
   @IBOutlet weak var resultLabel: UILabel!
   
-    @IBAction func buttonDigitPressed(sender: AnyObject) {
+    @IBAction func buttonDigitPressed(_ sender: AnyObject) {
     if setZero {
       resultLabel.text = "0"
       setZero = false
@@ -28,18 +28,18 @@ class CalculatorViewController: UIViewController {
       resultLabel.text = "\(result)"
 }
 
-  @IBAction func cancelButton(sender: AnyObject) {
+  @IBAction func cancelButton(_ sender: AnyObject) {
     resultLabel.text = "0"
   }
   
-  @IBAction func equalsButton(sender: AnyObject) {
+  @IBAction func equalsButton(_ sender: AnyObject) {
     operand = calculateResult(oprtr: op)
       resultLabel.text = "\(operand)"
       op = 0
       setZero = true
   }
   
-  @IBAction func operatorPressed(sender: AnyObject) {
+  @IBAction func operatorPressed(_ sender: AnyObject) {
     
     if op != 0 {
       
@@ -58,7 +58,7 @@ class CalculatorViewController: UIViewController {
   }
   
 
-  func calculateResult(oprtr oprtr: Int) -> Int {
+  func calculateResult(oprtr: Int) -> Int {
     var returnValue: Int = Int(resultLabel.text!)!
     
     switch(oprtr) {
@@ -91,7 +91,7 @@ class CalculatorViewController: UIViewController {
       op = 0
 
       func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+        return UIStatusBarStyle.lightContent
       }
   
   
